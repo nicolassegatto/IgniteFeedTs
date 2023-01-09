@@ -27,41 +27,37 @@ const posts : PostProps[]  = [
     },
     content: [
       { type: 'paragraph', content: "Fala galeraa 👋." },
-      { type: 'paragraph', content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat." },
-      { type: 'paragraph', content: "O nome do projeto é DoctorCare 🚀:" },
-      { type: 'link', content: "👉 Projetinho jane.design/doctorcare" },
+      { type: 'paragraph', content: "Hoje é um grande dia!!!" },
+      { type: 'paragraph', content: "Estou apresentando o meu TCC, espero que gostem 🚀" },
     ],
     publishedAt: new Date('2022-05-03 20:00:00')
   },
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/diego3g.png",
-      name: "Diego Fernandes",
-      role: "CTO at RocketSeat",
+      avatarUrl: "https://media.licdn.com/dms/image/C4E03AQECA2hFp2mwkA/profile-displayphoto-shrink_800_800/0/1654629063769?e=1676505600&v=beta&t=hUYhxOlkPdCFRGC-7oKA0EMXEGqYtArHozrlJ96IBNc",
+      name: "Maurício Machado",
+      role: "Especialista Melhoria Contínua",
     },
     content: [
-      { type: 'paragraph', content: "Fala Deeev 👋." },
-      { type: 'paragraph', content: "Espero que estejam aprendendo bastante com o curso" },
-      { type: 'paragraph', content: "O nome do projeto é RocketSeat 🚀:" },
-      { type: 'link', content: "👉 Projetinho jane.design/doctorcare" },
+      { type: 'paragraph', content: "Vocês viram aquilo? 🫢." },
+      { type: 'paragraph', content: "A apresentação do TCC foi fera!" },
     ],
     publishedAt: new Date('2022-05-06 18:00:00')
   },
-  {
+{
     id: 3,
     author: {
-      avatarUrl: "https://github.com/JoojVitor.png",
-      name: "João Vitor",
-      role: "Software Engineer",
+      avatarUrl: "https://i.ytimg.com/vi/wbf7mSRpBDQ/maxresdefault.jpg",
+      name: "Fabrício Pelizer",
+      role: "Production Engineer",
     },
     content: [
       { type: 'paragraph', content: "Fala galeraa 👋." },
-      { type: 'paragraph', content: "Salve salve salve, é o homi" },
-      { type: 'paragraph', content: "O nome do projeto é algarb2b 🚀:" },
-      { type: 'link', content: "👉 Projetinho jane.design/doctorcare" },
+      { type: 'paragraph', content: "Eu sou o professor Fabrício" },
+      { type: 'paragraph', content: "Este aluno que vos apresenta, tirou nota 100 🚀:" }
     ],
-    publishedAt: new Date('2022-04-03 22:00:00')
+    publishedAt: new Date('2022-12-12 12:00:00')
   },
 ];
 

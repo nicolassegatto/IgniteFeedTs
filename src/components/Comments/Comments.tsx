@@ -32,12 +32,12 @@ export function Comment({ content, onDeleteComment }:CommentProps) {
 
   return (
     <div className={styles.comment}>
-      <Avatar src="https://midias.agazeta.com.br/2020/08/27/-lancamento-da-pedra-presidente-jair-bolsonaro-no-lancamento-da-pedra-fundamental-para-a-duplicacao-da-br---469-em-foz-do-iguacu-307725-article.jpg" hasBorder={false} />
+      <Avatar src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png" hasBorder={false} />
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.autorAndTime}>
-              <strong>Bolsonario do Agro</strong>
+              <strong>Comentador</strong>
               <time title='11 de maio as 08hr' dateTime="2022-05-11 08:11:00">
                 Cerca de 1hr atrás
               </time>
